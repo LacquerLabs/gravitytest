@@ -15,9 +15,9 @@ public class PlayerControl : MonoBehaviour {
 
     void Start() {
         Cursor.lockState = CursorLockMode.Locked;		
-	}
-	
-	void Update() {
+    }
+
+    void Update() {
         if (Input.GetKeyDown("escape")) {
             Cursor.lockState = CursorLockMode.None;
         }
