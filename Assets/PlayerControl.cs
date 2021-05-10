@@ -24,11 +24,11 @@ public class PlayerControl : MonoBehaviour {
 
         float verticalMovement = 0f;
         
-        if (Input.GetKeyDown("space")) {
+        if (Input.GetKey("space")) {
             verticalMovement = + 0.5f;
         }
 
-        if (Input.GetKeyDown("c")) {
+        if (Input.GetKey("c")) {
             verticalMovement = - 0.5f;
         }
 
